@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: linear-gradient(113.46deg, #d8e9f5 21.79%, #f4efd1 54.02%, #fad3d0 87.31%);
+  height: 350px;
+  left: -1px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-pages {
+  display: flex;
+  margin-right: 139.97px;
+  gap: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.current-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 99px;
+}
+
+.current-page-title {
+  font-family: 'Circular Std Black', sans-serif;
+  font-size: 64px;
+  line-height: 76.8px;
+  letter-spacing: 2px;
+}
+
+.page-description {
+  margin-top: 13px;
+  font-family: 'Circular Std Book', sans-serif;
+}
+
+.app-title {
+  margin-left: 142.34px;
+  margin-top: 28.83px;
+  color: #0c0d0f;
+  width: 109.31px;
+  height: 23.65px;
+  font-family: 'Circular Std Medium', sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn {
+  height: 50px;
+  width: 249px;
+  top: 26px;
+  border-radius: 70px;
+  background-color: #0c0d0f;
+}
+
+.btn-text {
+  font-family: 'Circular Std Book', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 100;
+  color: #ffffff;
+  align-items: center;
+}
+
+:link {
+  text-decoration: none;
+  color: #0c0d0f;
+  font-family: 'Circular Std Book', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}

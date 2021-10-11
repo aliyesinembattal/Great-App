@@ -1,0 +1,111 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 100%;
+  left: 0px;
+  top: 763px;
+  background-color: #0c0d0f;
+  color: #ffffff;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-title {
+  height: 102px;
+  width: 385px;
+  padding-top: 99px;
+  font-family: 'Circular Std Book', sans-serif;
+  font-size: 68px;
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.addresses {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.contact-info-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-top-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-top-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.stunner-followus {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.stunner {
+  font-size: 18px;
+  & p {
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+
+.follow-us {
+  font-size: 18px;
+}
+
+.footer-bottom-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.policies {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-btn-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-footer-btn {
+  margin-right: 140px;
+  border-radius: 70px;
+  width: 200px;
+  height: 54px;
+  background-color: #0c0d0f;
+  border-style: inset;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+}

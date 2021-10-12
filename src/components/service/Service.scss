@@ -1,0 +1,58 @@
+.services-card {
+  width: 200px;
+  height: 217px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: inline-table;
+  text-align: center;
+  margin: 1rem;
+  position: relative;
+  padding: 0.1rem;
+  padding-bottom: 10px;
+
+  & .service-title {
+    margin-top: -20px;
+    color: rgba(30, 71, 79, 1);
+    font-size: 18px;
+    font-family: 'Circular Std Medium', sans-serif;
+  }
+
+  & .service-category {
+    color: rgba(67, 139, 163, 1);
+    font-size: 14px;
+  }
+
+  & .service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  & .service-people-avatar1 {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    border-radius: 100%;
+    z-index: 2;
+  }
+
+  & .service-people-avatar2 {
+    display: flex;
+    position: relative;
+    border-radius: 100%;
+    left: 48%;
+    z-index: 1;
+  }
+
+  & .service-people-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgba(131, 141, 144, 1);
+    font-size: 14px;
+    font-family: 'Circular Std Medium', sans-serif;
+  }
+}
